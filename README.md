@@ -55,3 +55,12 @@
 # 5.High Level Archeticture
 	Client go to the API Gateway and from it go to the server that has it's services and save new operations on database or get from it
 ![HLD](./HLD.png)
+
+---
+
+# 6.Deep Dives
+	Problem1: User can check the same product multiple time
+	Trade-off: Use cache to save visited sites and make the latency be lower
+
+	Problem2: When user make order or receives notifications it consumes time from the server
+	Trade-off: Use Queue to make this work beside the current work
