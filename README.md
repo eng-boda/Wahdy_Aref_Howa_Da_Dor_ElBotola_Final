@@ -53,5 +53,5 @@
 ---
 
 # 5.High Level Archeticture
-
+	Client go to the API Gateway and from it go to the server that has it's services and save new operations on database or get from it
 ![HLD](./HLD.png)
