@@ -21,3 +21,8 @@
   4.	System should be reliable with the users
 
 ---
+
+# 3.Data Model
+
+  Entities: Products - Customers - Operators - Robots - Orders
+  ![Data Model](./Data Model.png)
