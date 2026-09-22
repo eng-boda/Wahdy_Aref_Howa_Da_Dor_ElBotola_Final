@@ -26,3 +26,28 @@
 
   Entities: Products - Customers - Operators - Robots - Orders
   ![Data Model](./Data_model.png)
+
+---
+
+# 4.API Design
+
+  ### Check Product   
+	  GET/Product/{product_id} ----> Product
+
+  ### Make Order  
+  	POST/Order  
+  	body:{  
+  		“products”: String[],  
+  		“price”: Double  
+  }  
+  ### Get Status  
+  	GET/order_status/{order_id} ----> Order_status  
+
+  ### Add Product  
+    POST/Product  
+    body:{  
+      “name”: string,  
+      “price”: Double  
+    }  
+
+---
