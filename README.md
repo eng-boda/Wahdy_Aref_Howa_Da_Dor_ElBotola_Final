@@ -1,7 +1,5 @@
 # Wahdy_Aref_Howa_Da_Dor_ElBotola
 
----
-
 # 1.Functional Requirements
   1.	System should manage orders & products
   2.	System shall check that there is no duplication
