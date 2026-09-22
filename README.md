@@ -25,4 +25,4 @@
 # 3.Data Model
 
   Entities: Products - Customers - Operators - Robots - Orders
-  ![Data Model](./Data Model.png)
+  ![Data Model](./Data_model.png)
