@@ -65,4 +65,13 @@
 	Problem2: When user make order or receives notifications it consumes time from the server
 	Trade-off: Use Queue to make this work beside the current work
 
-![DeepDive](./DeepDive.png)
+![DeepDive](./DeepDive2.png)
+
+---
+
+# 7.Back-Of-The-Envelope Estimation
+
+	Number of requests = 100000 , Peak Factor = 5 , storage = 100000 kb
+	Average QPS = Number of requests/86400 = 100000/86400 = 1.15 req/sec
+	Peak QPS = Average QPS * Peak Factor = 1.15 * 5 = 5.78
+	Bandwidth = QPS * storage = 1.15 * 100000 = 115000 kb
