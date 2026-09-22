@@ -54,4 +54,4 @@
 
 # 5.High Level Archeticture
 
-	![HLD](./HLD.png)
+![HLD](./HLD.png)
