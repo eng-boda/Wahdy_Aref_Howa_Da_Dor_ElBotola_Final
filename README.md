@@ -64,3 +64,5 @@
 
 	Problem2: When user make order or receives notifications it consumes time from the server
 	Trade-off: Use Queue to make this work beside the current work
+
+![DeepDive](./DeepDive.png)
